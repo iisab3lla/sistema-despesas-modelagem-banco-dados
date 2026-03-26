@@ -1,19 +1,19 @@
-# ❀ Cadastro de Despesas por Filial
+# ❀ Sistema de Despesas com Modelagem de Banco de Dados
 
-Aplicação web desenvolvida com foco em **modelagem de banco de dados e integração com aplicação web**, permitindo o registro e controle de despesas de diferentes filiais de uma empresa.
+Aplicação web desenvolvida com foco em **modelagem de banco de dados e integração com aplicação web**, permitindo o registro e controle de despesas empresariais.
 
 ---
 
 ## ❀ Objetivo do Projeto
 
-Este projeto teve como principal objetivo o desenvolvimento de uma aplicação web integrada a um banco de dados relacional, com foco em:
+Este projeto teve como objetivo desenvolver uma aplicação web integrada a um banco de dados relacional, com foco em:
 
 • Estruturação e modelagem de banco de dados  
-• Conexão entre aplicação e banco utilizando PHP + MySQL  
-• Organização e registro de despesas por filial  
+• Integração entre aplicação e MySQL utilizando PHP  
+• Registro e organização de despesas  
 
 ✿ **Observação:**  
-A aplicação foi desenvolvida com auxílio de Inteligência Artificial, porém o foco principal esteve no entendimento de **banco de dados e sua integração com a aplicação**.
+A aplicação foi desenvolvida com auxílio de Inteligência Artificial, porém o foco principal esteve na **estrutura do banco de dados e na conexão com o sistema via XAMPP**.
 
 ---
 
@@ -30,11 +30,11 @@ Uso de ambiente local com XAMPP
 
 ## ❀ Ferramentas Utilizadas
 
-MySQL Workbench  
-VS Code  
-XAMPP (Apache + MySQL)  
-InfinityFree (deploy da aplicação)  
-Inteligência Artificial (auxílio no desenvolvimento)  
+• MySQL Workbench  
+• VS Code  
+• XAMPP (Apache + MySQL)  
+• InfinityFree (deploy da aplicação)  
+• Inteligência Artificial (auxílio no desenvolvimento)  
 
 ---
 
@@ -42,10 +42,10 @@ Inteligência Artificial (auxílio no desenvolvimento)
 
 Desenvolver uma aplicação web para uma empresa que:
 
-Permitisse o cadastro de despesas por filial  
+Permitisse o cadastro de despesas  
 Armazenasse os dados em banco relacional  
 Possuísse estrutura organizada de tabelas  
-Realizasse integração entre sistema e banco de dados  
+Realizasse integração entre aplicação e banco de dados  
 
 ---
 
@@ -60,16 +60,16 @@ Realizasse integração entre sistema e banco de dados
 - subcategorias_despesa  
 - orcamentos_mensais  
 
-• Desenvolvimento do formulário web completo  
+• Desenvolvimento de formulário web completo  
 • Integração com banco de dados via PHP (PDO)  
 • Persistência de dados no banco  
 • Organização da estrutura do projeto  
 
 ---
 
-## ❀ Demonstração do Projeto
+## ❀ Demonstração da Aplicação
 
-### ✿ Interface da aplicação
+### ✿ Interface do sistema
 
 ![Aplicação](./assets/aplicacaoWEB.png)
 
@@ -77,23 +77,39 @@ Realizasse integração entre sistema e banco de dados
 
 ![Preenchido](./assets/aplicacaoPreenchida.png)
 
+---
+
+## ❀ Persistência de Dados
+
 ### ✿ Confirmação de salvamento
 
-![Sucesso](./assets/formularioSalvo.png)
+![Sucesso](./assets/resultadoForms.png)
 
-### ✿ Dados no banco de dados
+### ✿ Dados armazenados no banco
 
 ![Banco](./assets/resultado.png)
 
 ---
 
+## ❀ Estrutura do Banco de Dados
+
+![Tabela despesas](./assets/tabelaDespesas.png)
+
+---
+
+## ❀ Integração com PHP
+
+![Conexão PHP](./assets/conexaoPHP.png)
+
+---
+
 ## ❀ Principais Aprendizados
 
-• Estruturação de banco de dados voltado para aplicação real  
-• Conexão entre PHP e MySQL utilizando PDO  
-• Importância da organização de dados e tabelas  
-• Manipulação e envio de dados via formulário  
-• Noções básicas de deploy de aplicações web  
+Estruturação de banco de dados voltado para aplicação real  
+Conexão entre PHP e MySQL utilizando PDO  
+Importância da organização de dados e tabelas  
+Manipulação de dados via formulário  
+Noções básicas de deploy de aplicações web  
 
 ---
 

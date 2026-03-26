@@ -1,1 +1,1 @@
-Pasta para armazenar imagens e recursos.
+Pasta para armazenar imagens e recursos. 

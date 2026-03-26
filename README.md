@@ -1,4 +1,4 @@
-# ❀ Sistema de Despesas com Modelagem de Banco de Dados
+# ❀ Sistema de Despesas com Modelagem de Banco de Dados 
 
 Aplicação web desenvolvida com foco em **modelagem de banco de dados e integração com aplicação web**, permitindo o registro e controle de despesas empresariais.
 
